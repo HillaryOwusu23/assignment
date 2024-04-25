@@ -41,6 +41,50 @@ img {
   flex-flow: row wrap;
 }
 
+.align-flex-start {
+  align-items: flex-start;
+}
+
+.align-normal {
+  align-items: normal;
+}
+
+.align-space-evenly {
+  align-items: space-evenly;
+}
+
+.align-flex-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-space-between {
+  align-items: space-between;
+}
+
+.align-space-around {
+  align-items: space-around;
+}
+
+.direction-row {
+  flex-direction: row;
+}
+
+.direction-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.direction-column-reverse {
+  flex-direction: column-reverse;
+}
+
 .gap-0 > * {
   padding: 0;
 }
@@ -83,6 +127,10 @@ img {
 
 .justify-flex-end {
   justify-content: flex-end;
+}
+
+.justify-space-evenly {
+  justify-content: space-evenly;
 }
 
 .justify-center {
@@ -2386,19 +2434,13 @@ img {
 .nav-bar {
   width: 100%;
   height: 5rem;
-  display: flex;
-  align-items: center;
 }
 .nav-bar .container {
-  display: flex;
-  justify-content: space-between;
   height: 70%;
-  align-items: center;
 }
 .nav-bar ul {
   width: 50%;
   display: flex;
-  justify-content: space-around;
 }
 .nav-bar li:hover {
   border-bottom: 2px solid black;
@@ -2406,6 +2448,31 @@ img {
 .nav-bar .img {
   width: 80px;
   height: 20px;
+}
+
+.header .child1 {
+  height: 30rem;
+}
+.header .child1 div {
+  font-size: 3.2rem;
+}
+.header .row {
+  border-radius: 7px;
+  height: 100%;
+}
+.header .child2 {
+  height: 100%;
+}
+.header .child2 img {
+  width: 30rem;
+  height: 30rem;
+}
+.header .link {
+  border-bottom: 1px;
+}
+
+.content_nav {
+  width: 25rem;
 }
 
 .p-0 {
@@ -2750,4 +2817,40 @@ img {
 
 .font-xxl {
   font-size: 2.4rem;
+}
+
+.font-xxxl {
+  font-size: 2.4rem;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.font-extraLight {
+  font-weight: 200;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
