@@ -11,7 +11,11 @@
 @import "colors";
 
 // components (button, card, navbar etc)
-
+@import "./_components/navbar";
+@import "./_components/header";
+@import "./_components/navigation";
+@import "./_components/card";
+@import "./_components/footer";
 
 // utilities (margin, padding, opacity, etc)
 @import 'utilities';

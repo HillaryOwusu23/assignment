@@ -3,7 +3,7 @@ $primary: #edebec;
 $secondary: #cfcfd0;
 $error: #d32752;
 $info: #f6c31c;
-
+$base-color:#f5f5f5;
 
 // color palette
 $colors: (
@@ -20,6 +20,7 @@ $colors: (
   "gray": #808080,
   "black": black,
   "white": white,
+  "footer":#262626
 );
 
 // spacing
@@ -29,13 +30,17 @@ $base-margin: 0.75rem;
 // borders
 $base-border-thickness: 1px;
 $base-border-radius: 20px;
+$header-border-radius: 7px;
 
 // box-shadow
 $base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
 
+//font weight
+$base-font-weight:100;
 // font sizes
-$base-font-size: 1rem;
+$base-font-size: 0.8rem;
 $font-size-sm: $base-font-size * 0.75;
 $font-size-lg: $base-font-size * 1.5;
 $font-size-xl: $base-font-size * 2;
 $font-size-xxl: $base-font-size * 3;
+$font-size-xxxl: $base-font-size * 4;

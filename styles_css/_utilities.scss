@@ -155,6 +155,20 @@ $utilities: (
       "lg": $font-size-lg,
       "xl": $font-size-xl,
       "xxl": $font-size-xxl,
+      "xxxl": $font-size-xxl,
+    ),
+  ),
+  "font-weight": (
+    "prefix": "font",
+    "values": (
+      "thin": $base-font-weight,
+      "extraLight": $base-font-weight * 2,
+      "light": $base-font-weight  * 3,
+      "normal": $base-font-weight  * 4,
+      "medium": $base-font-weight  * 5,
+      "semibold": $base-font-weight  * 6,
+      "bold": $base-font-weight  * 7,
+      "extrabold": $base-font-weight * 8,
     ),
   ),
 );

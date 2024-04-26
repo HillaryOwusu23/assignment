@@ -1,0 +1,15 @@
+.footer {
+  height: 14rem;
+}
+.footer .container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer .links {
+  height: 4rem;
+}
+.footer .footer_row {
+  height: 10rem;
+}

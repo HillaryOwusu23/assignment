@@ -1,0 +1,24 @@
+.header {
+  .child1 {
+    height: 30rem;
+    div {
+      font-size: $base-font-size * 4;
+    }
+  }
+
+  .row {
+    border-radius: $header-border-radius;
+    height: 100%;
+  }
+  .child2 {
+    height: 100%;
+    img {
+      width: 30rem;
+      height: 30rem;
+  
+    }
+  }
+  .link {
+    border-bottom: $base-border-thickness;
+  }
+}
