@@ -9,5 +9,6 @@ function buildStyles() {
 function watchTask() {
   watch(["styles_css/**/*.scss","*.html"], buildStyles);
 }
-
+// Define the "build" task to run buildStyles
+exports.build = buildStyles;
 exports.default = series(buildStyles, watchTask);
