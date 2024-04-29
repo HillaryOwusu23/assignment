@@ -11,11 +11,28 @@
     ></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="home">
       <nav class="nav-bar display-f justify-space-between align-center">
-        <div class="container justify-space-between align-center display-f">
-          <img src="/img/landing-slider-img-15.png" class="img" alt="logo" />
-          <ul class="font-md display-f justify-space-around font-medium">
+        <div class="container justify-space-between  display-f">
+          <img src="/img/landing-slider-img-15.png" class="img mt-2" alt="logo" />
+          <div class="nav_container display-f align-center justify-space-between">
+            <ul
+            class="font-md ul display-f justify-space-around font-medium"
+          >
+            <li ><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#view_items">View All Items</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>Blog</li>
+            <li>elements</li>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </ul>
+           
+          <i class="fa-solid showDiv fa-bars">
+            <div
+            class=" display-f  bg-white hidden direction-column text-black-light-4 font-sm justify-space-between p-1 nav_horizontal "
+          >
             <li>Home</li>
             <li>Pogos</li>
             <li>shop</li>
@@ -24,8 +41,11 @@
             <li>elements</li>
             <i class="fa-solid fa-magnifying-glass"></i>
             <i class="fa-solid fa-cart-shopping"></i>
-            <i class="fa-solid fa-bars"></i>
-          </ul>
+            
+          </div>
+          </i>
+          </div>
+         
         </div>
       </nav>
       <header class="header container mt-1">
@@ -46,15 +66,14 @@
           <div class="child2 display-f justify-center col-12-xs col-6-md">
             <img
               src="./img/Leather_Strap_Nordic_Modern_Pendant_Light_Grey-D36cm-removebg-preview.png"
-              class=""
-              alt=""
+              alt="lamp"
             />
           </div>
         </div>
       </header>
       <main>
         <!-- navigation -->
-        <div class="container mt-2">
+        <div class="container mt-2" id="view_items">
           <ul
             class="display-f font-md font-medium justify-space-around content_nav"
           >
@@ -65,7 +84,7 @@
             <li>Led</li>
           </ul>
           <!-- list of items -->
-          <section class="container mt-1">
+          <section class="container mt-1" >
             <div class="row gap-2">
               <div class="col-12-xs col-8-md col-3-lg">
                 <div class="p-0 display-f direction-column card">
@@ -258,16 +277,19 @@
           </section>
         </div>
       </main>
-      
     </div>
-    <footer class=" footer  bg-footer">
-      <div class="container">
-        <div class="row footer_row gap-2">
-          <div class="col-12-xs  col-3-md col-3-lg">
+    <footer class="footer bg-footer" id="contact">
+      <div class="container bg-footer">
+        <div class="row bg-footer gap-2">
+          <div class="col-12-xs footer_row col-3-md col-3-lg">
             <p class="title font-md text-primary">About us</p>
-            <p class="text-primary font-sm font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus amet tenetur dicta. Natus labore quidem doloremque autem iste! Eveniet, facilis. Nesciunt saepe.</p>
+            <p class="text-primary font-sm font-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              amet tenetur dicta. Natus labore quidem doloremque autem iste!
+              Eveniet, facilis. Nesciunt saepe.
+            </p>
           </div>
-          <div class="col-12-xs  col-3-md col-3-lg">
+          <div class="col-12-xs footer_row col-3-md col-3-lg">
             <p class="title font-md text-primary">Useful links</p>
             <div class="text-primary font-sm font-light">
               <ul>
@@ -276,42 +298,72 @@
                 <li>Forums</li>
                 <li>Meetups</li>
               </ul>
-              Lorem ipsum</div>
+              Lorem ipsum
+            </div>
           </div>
-          <div class="col-12-xs  col-3-md col-3-lg">
+          <div class="col-12-xs footer_row col-3-md col-3-lg">
             <p class="title font-md text-primary">Download</p>
             <ul class="text-primary font-sm font-light">
-            <li>Terms</li>   
-            <li>Licenses</li>   
-            <li>Market API</li>   
-            <li>Become an affiliate</li>   
+              <li>Terms</li>
+              <li>Licenses</li>
+              <li>Market API</li>
+              <li>Become an affiliate</li>
             </ul>
-
           </div>
-          <div class="col-12-xs  col-3-md col-3-lg">
+          <div class="col-12-xs footer_row col-3-md col-3-lg">
             <p class="title font-md text-primary">Call center</p>
             <ul class="text-primary font-sm font-light">
-              <li>Monday to friday 9-20</li>   
-              <li>Saturday to Sunday absiei</li>   
-              <li>hillary.owusu@amlite.com</li>   
-              <li>Become an affiliate</li>   
-              <li>054839390</li>   
-              </ul>
+              <li>Monday to friday 9-20</li>
+              <li>Saturday to Sunday absiei</li>
+              <li>hillary.owusu@amlite.com</li>
+              <li>Become an affiliate</li>
+              <li>054839390</li>
+            </ul>
           </div>
         </div>
-        
       </div>
-      <div class="container links">
+      <div class="container bg-footer links">
         <ul
-            class="display-f  font-md font-medium text-primary justify-space-between content_nav"
-          >
-            <li>All</li>
-            <li>Decoration</li>
-            <li>Ceiling</li>
-            <li>floor</li>
-            <li>Led</li>
-          </ul>
+          class="display-f font-md font-medium text-primary justify-space-between content_nav"
+        >
+          <li>All</li>
+          <li>Decoration</li>
+          <li>Ceiling</li>
+          <li>floor</li>
+          <li>Led</li>
+        </ul>
       </div>
     </footer>
   </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+const parentContainer = document.querySelector('.nav-bar');
+
+// Add event listener to the parent container
+parentContainer.addEventListener('click', function(event) {
+  // Check if the clicked element is the parent div
+  if (event.target.classList.contains('showDiv')) {
+    // Get reference to the child div
+    const childDiv = event.target.querySelector('.nav_horizontal');
+    // Toggle the 'hidden' class on the child div
+    childDiv.classList.toggle('hidden');
+  }
+});
+
+</script>
 </html>
+
